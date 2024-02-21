@@ -697,8 +697,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1437784654}
-  - component: {fileID: 1437784653}
   - component: {fileID: 1437784652}
+  - component: {fileID: 1437784653}
   m_Layer: 0
   m_Name: Line
   m_TagString: Untagged
@@ -820,6 +820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf401983a5f97774a95752e92fd5996e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_lineRenderer: {fileID: 1437784652}
 --- !u!4 &1437784654
 Transform:
   m_ObjectHideFlags: 0

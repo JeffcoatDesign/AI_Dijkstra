@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Graph
 {
-    List<Connection> m_connections;
+    List<Connection> m_connections = new();
     public Connection[] GetConnections(Node node)
     {
         List<Connection> connections = new List<Connection>();
